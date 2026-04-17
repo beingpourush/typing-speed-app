@@ -1,16 +1,106 @@
-# React + Vite
+# 🚀 Typing Speed Test App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern typing speed calculator built using React.js and Tailwind CSS.
+Test your typing speed with a smooth, real-time typing experience and track your performance.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Live Demo
 
-## React Compiler
+👉 https://typing-speed-app-xi.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* ⚡ Real-time typing experience
+* 📈 Words Per Minute (WPM) calculation
+* 🎯 Accuracy calculation
+* 🔄 Dynamic word generation
+* ✨ Smooth multi-line text flow
+* 🎨 Clean and responsive UI
+* ⌨️ Auto-focus input for seamless typing
+
+---
+
+## 🛠️ Tech Stack
+
+* React.js
+* JavaScript (ES6)
+* Tailwind CSS
+* Vite
+
+---
+
+## 📦 Installation & Setup
+
+Clone the repository and run locally:
+
+```bash
+git clone https://github.com/beingpourush/typing-speed-app.git
+cd typing-speed-app
+npm install
+npm run dev
+```
+
+Then open in browser:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 📂 Project Structure
+
+```
+typing-speed-app/
+│── src/
+│   ├── components/
+│   ├── App.jsx
+│   └── main.jsx
+│── public/
+│── package.json
+```
+
+---
+
+## 📊 How It Works
+
+* User selects a time duration
+
+* Words are dynamically generated
+
+* Typing input is matched with expected words
+
+* WPM is calculated using:
+
+  ```
+  WPM = (Total Characters Typed / 5) / Time (minutes)
+  ```
+
+* Accuracy is calculated based on correct words typed
+
+---
+
+## 🎯 Future Improvements
+
+* 🔊 Sound effects for keypress
+* 🏆 Leaderboard system
+* 🤖 AI typing opponent
+* 🌙 Dark/Light mode toggle
+
+---
+
+## 👨‍💻 Author
+
+**Pourush Goyal**
+
+* GitHub: https://github.com/beingpourush
+* LinkedIn: https://www.linkedin.com/in/pourushgoyal/
+
+---
+
+## ⭐ Show your support
+
+If you like this project, consider giving it a ⭐ on GitHub!
